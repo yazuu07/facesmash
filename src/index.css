@@ -891,7 +891,7 @@ body::before {
       #0e0e11 0%,
       #16161c 20%,
       #1e1e2a 35%,
-      #2a1a24 50%,
+      #000000 50%,
       #1e1e2a 65%,
       #16161c 80%,
       #0e0e11 100%
@@ -910,12 +910,12 @@ body::after {
   background:
     radial-gradient(
       ellipse at 30% 30%,
-      rgba(255, 59, 107, 0.08) 0%,
+      rgba(201, 201, 201, 0.08) 0%,
       transparent 55%
     ),
     radial-gradient(
       ellipse at 70% 70%,
-      rgba(120, 40, 90, 0.10) 0%,
+      rgba(133, 133, 133, 0.1) 0%,
       transparent 55%
     );
   animation: glowDrift 18s ease-in-out infinite alternate;
